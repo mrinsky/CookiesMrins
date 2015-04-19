@@ -168,4 +168,9 @@ public interface Language {
     public String getSEARCH_BY_DATE_INTERVAL();
     public String getCHOOSE_SEARCH_PARAM();
     public String getAND_LABEL();
+
+    public String getADMIN_MENU();
+    public String getCHANGE_USER();
+    public String getCHOOSE_USER();
+    public String getUSER_MENU();
 }

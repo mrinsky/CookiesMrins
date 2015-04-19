@@ -48,15 +48,9 @@ public class PrintHandler {
                     printCountryMenu();
                     break;
                 case 7:
-                    if (UserData.currentUser != null && !UserData.currentUser.isAdmin()){
-                        printOwnHolidays();
-                        break;
-                    }
-                case 8:
-                    //if (UserHandler.currentUser != null && !UserHandler.currentUser.isAdmin()) {
+                    if (UserData.currentUser.isAdmin()) MainMenu.adminMenu();
                     MainMenu.mainMenu();
                     break;
-                //}
                 default:
                     MainMenu.out.println(Resources.language.getWRONG_CHOICE());
                     showMenu();
@@ -195,34 +189,6 @@ public class PrintHandler {
         } else {
             MainMenu.out.println(Resources.language.getNOT_FOUND());
             MainMenu.mainMenu();
-        }
-    }
-
-    private static void printOwnHolidays(){
-        if (UserData.currentUser != null && !UserData.currentUser.isAdmin()){
-            if (!UserData.currentUser.getHolidayList().isEmpty()){
-                ArrayList<Tradition> traditions = new ArrayList<Tradition>();
-                for (int i = UserData.traditionCount; i < Resources.traditions.size(); i++){
-                    traditions.add(Resources.traditions.get(i));
-                }
-                UserData.currentUser.setTraditionList(traditions);
-                LinkedList<Country> countries = new LinkedList<Country>();
-                for (int i = UserData.countryCount; i < Resources.countries.size(); i++){
-                    countries.add(Resources.countries.get(i));
-                }
-                UserData.currentUser.setCountryList(countries);
-                LinkedList<Holiday> holidays = new LinkedList<Holiday>();
-                for (int i = UserData.holidayCount; i < Resources.holidays.size(); i++){
-                    holidays.add(Resources.holidays.get(i));
-                }
-                UserData.currentUser.setHolidayList(holidays);
-                printArrayHolidays(UserData.currentUser.getHolidayList(), 0);
-                printHolidayMenu(true);
-            }
-            else {
-                MainMenu.out.println(Resources.language.getNOT_FOUND());
-                MainMenu.mainMenu();
-            }
         }
     }
 

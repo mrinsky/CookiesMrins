@@ -15,7 +15,7 @@ import java.util.LinkedList;
  * Created by root on 12.03.15.
  */
 public class User {
-    private final String ROOT = "resources/users/";
+    public static final String ROOT = "resources/users/";
     private final String TRADITION_FILE = "/traditionSave.xml";
     private final String HOLIDAY_FILE = "/holidaySave.xml";
     private final String COUNTRY_FILE = "/countrySave.xml";
@@ -60,7 +60,6 @@ public class User {
 
     public User(String login, String pass, RSA rsa) {
         this.login = login;
-
         this.modules = new BigInteger("114300212443049308755638385038607092399228059171843074638659728066396329731870812301666900170326603999649607364454783561463395729169397992550553334308251756497995161575531048559625701582012129417669546314420880750128408561569822198960212709010390091463374475374736305384151906473683969549684741213893356703077");
         rsa.setModulus(this.modules);
         rsa.setPublicKey(rsa.getPublicKey());
@@ -96,8 +95,9 @@ public class User {
         rsa.setModulus(new BigInteger(value));
     }
 
-    public void setPass(String pass) {
-        this.pass = new BigInteger(pass);
+    public void setPass(String pass, RSA rsa) {
+        BigInteger num_pass = new BigInteger(pass);
+        this.pass = rsa.encrypt(num_pass);
     }
 
     public BigInteger getPass() {

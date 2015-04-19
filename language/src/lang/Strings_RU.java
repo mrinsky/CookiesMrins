@@ -81,7 +81,7 @@ public class Strings_RU implements Language {
     private final String CLASS_NOT_FOUND_ERROR = "Ошибка загрузки класса";
     private final String NOT_UNIQUE = "Объект уже существует";
     private final String PRINT_SHORT_MENU = "1 - посмотреть традиции\n2 - назад";
-    private final String SHOW_USER_MENU = "Какие праздники вывести?\n1 - сегодня\n2 - по дате\n3 - по типу\n4 - по стране\n5 - все праздники\n6 - все страны\n7 - личные праздники\n8 - в главное меню";
+    private final String SHOW_USER_MENU = "Какие праздники вывести?\n1 - сегодня\n2 - по дате\n3 - по типу\n4 - по стране\n5 - все праздники\n6 - все страны\n7 - в главное меню";
     private final String GUEST_TRADITION_MENU = "1 - прочитать описание\n2 - назад";
     private final String DATE = "Дата";
     private final String CREATE_TITLE = "Создать событие";
@@ -98,6 +98,10 @@ public class Strings_RU implements Language {
     private final String AND_LABEL = "А также";
     private final String SHOW_OR_EDIT = "Показать / Изменить описание";
     private final String NOT_FOUND_DESCRIPTION = "Описание отсутствует";
+    private final String ADMIN_MENU = "1 - Управление пользователями\n2 - Главное меню\n3 - Лог сервера\n4 - Выход";
+    private final String CHANGE_USER = "1 - Изменить логин\n2 - Изменить пароль";
+    private final String CHOOSE_USER = "Выбрать пользователя:";
+    private final String USER_MENU = "1 - Удалить\n2 - Изменить\n3 - Добавить\n4 - Просмотреть пользователей\n5 - Назад";
 
     public String getNOT_FOUND_DESCRIPTION() {
         return NOT_FOUND_DESCRIPTION;
@@ -525,5 +529,18 @@ public class Strings_RU implements Language {
 
     public String getGUEST_MAIN_MENU(){
         return GUEST_MAIN_MENU;
+    }
+
+    public String getADMIN_MENU() {
+        return ADMIN_MENU;
+    }
+    public String getCHANGE_USER() {
+        return CHANGE_USER;
+    }
+    public String getCHOOSE_USER() {
+        return CHOOSE_USER;
+    }
+    public String getUSER_MENU() {
+        return USER_MENU;
     }
 }

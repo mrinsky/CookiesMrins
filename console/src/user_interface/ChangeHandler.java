@@ -20,11 +20,10 @@ public class ChangeHandler {
                 PrintHandler.printArrayHolidays(Resources.holidays, 0);
             }
             else{
-                PrintHandler.printArrayHolidays(UserData.currentUser.getHolidayList(),
-                        UserData.holidayCount);
+                PrintHandler.printArrayHolidays(UserData.currentUser.getHolidayList());
             }
             int choice = Integer.parseInt(MainMenu.reader.readLine());
-            if (choice >= UserData.holidayCount && choice < Resources.holidays.size()) {
+            if (choice >= 0 && choice < Resources.holidays.size()) {
                 changeHoliday(choice);
             }
             else {
@@ -50,7 +49,7 @@ public class ChangeHandler {
                 PrintHandler.printArrayCountries(UserData.currentUser.getCountryList());
             }
             int choice = Integer.parseInt(MainMenu.reader.readLine());
-            if (choice >= UserData.countryCount && choice < UserData.countryCount) {
+            if (choice >= 0 && choice < Resources.countries.size()) {
                 changeCountry(choice);
             }
             else {
@@ -114,11 +113,10 @@ public class ChangeHandler {
                 PrintHandler.printArrayHolidays(Resources.holidays, 0);
             }
             else{
-                PrintHandler.printArrayHolidays(UserData.currentUser.getHolidayList(),
-                        UserData.holidayCount);
+                PrintHandler.printArrayHolidays(UserData.currentUser.getHolidayList());
             }
             int description = Integer.parseInt(MainMenu.reader.readLine());
-            if (choice >= UserData.holidayCount && choice < Resources.holidays.size()) {
+            if (choice >= 0 && choice < Resources.holidays.size()) {
                 Resources.traditions = (ArrayList<Tradition>)
                         Change.editTradition(Resources.holidays.get(description).getName(), choice, 3,
                         Resources.traditions, Resources.countries);
@@ -146,7 +144,7 @@ public class ChangeHandler {
                 PrintHandler.printArrayCountries(UserData.currentUser.getCountryList());
             }
             int description = Integer.parseInt(MainMenu.reader.readLine());
-            if (choice >= UserData.countryCount && choice < Resources.countries.size()) {
+            if (choice >= 0 && choice < Resources.countries.size()) {
                 Resources.traditions = (ArrayList<Tradition>)
                         Change.editTradition(Resources.countries.get(description).getName(), choice, 2,
                         Resources.traditions, Resources.countries);
@@ -169,7 +167,7 @@ public class ChangeHandler {
 
             String description = MainMenu.reader.readLine();
 
-            if (choice >= UserData.traditionCount && choice < Resources.traditions.size()) {
+            if (choice >= 0 && choice < Resources.traditions.size()) {
                 Resources.traditions = (ArrayList<Tradition>)
                         Change.editTradition(description, choice, 1, Resources.traditions, Resources.countries);
             }

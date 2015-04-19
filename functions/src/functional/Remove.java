@@ -3,8 +3,11 @@ package functional;
 import model.Country;
 import model.Holiday;
 import model.Tradition;
+import model.User;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.io.File;
 
 public class Remove {
 
@@ -33,7 +36,7 @@ public class Remove {
     }
 
     public static void removeTradition(int id, List<Tradition> traditions) {
-        if (id >= UserData.traditionCount && id < traditions.size()) {
+        if (id >= 0 && id < traditions.size()) {
             traditions.remove(id);
         }
         else throw new IndexOutOfBoundsException();
@@ -56,5 +59,22 @@ public class Remove {
         // поиск и удаление традиций с этим праздником
         removeListTradition(Search.getTraditions(h_list.get(holiday), from),from);
         h_list.remove(holiday);
+    }
+
+    static void deleteDirectory(File dir) {
+        if (dir.isDirectory()) {
+            String[] children = dir.list();
+            for (int i=0; i<children.length; i++) {
+                File f = new File(dir, children[i]);
+                deleteDirectory(f);
+            }
+            dir.delete();
+        } else dir.delete();
+    }
+
+    public static void removeUser(User user, ArrayList<User> users) {
+        File dir = new File(User.ROOT + user.getLogin());
+        deleteDirectory(dir);
+        users.remove(user);
     }
 }

@@ -328,6 +328,8 @@ public class AdditionalSearchWindow extends JFrame {
                     case 0:
                         Date dateValue = initDate(PARAM_NUM);
                         searchDate(dateValue);
+                        //Search.searchDate(dateValue, Resources.holidays, Resources.countries,
+                                //Resources.traditions);
                         break;
                     case 1:
                         Date dateFrom = initDate(FROM_PARAM_NUM);
@@ -336,6 +338,8 @@ public class AdditionalSearchWindow extends JFrame {
                         ArrayList<Date> interval = getDaysBetweenDates(dateFrom, dateTo);
                         for (Date item : interval) {
                             searchDate(item);
+                            //Search.searchDate(item, Resources.holidays, Resources.countries,
+                                    //Resources.traditions);
                         }
                         break;
                     case 2:

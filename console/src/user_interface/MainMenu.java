@@ -5,11 +5,13 @@ import functional.UserData;
 import functional.XmlFileWorking;
 import lang.Strings_EN;
 import lang.Strings_RU;
+import model.User;
 import org.jdom2.JDOMException;
 import org.xml.sax.SAXException;
 
 import java.io.*;
 import java.text.ParseException;
+import java.util.ArrayList;
 
 public class MainMenu {
     protected static PrintWriter out = new PrintWriter(System.out, true);
@@ -62,6 +64,66 @@ public class MainMenu {
             }
         }
     }
+/*
+    private static void readLog() {
+        try {
+            FileInputStream fis = new FileInputStream("c:\\temp\\temp.txt");
+            InputStreamReader in = new InputStreamReader(fis);
+            BufferedReader buf_read = new BufferedReader(in);
+            String buffer;
+
+            while ((buffer = buf_read.readLine()) != null) {
+                char[] bf = buffer.toCharArray();
+                for (int i=0; i<bf.length;i++) {
+                    if(bf[i] == '№')
+                        Thread.sleep(20000);
+                    else
+                        System.out.print(bf[i]);
+                }
+                System.out.println();
+            }
+
+            fis.close();
+            in.close();
+            buf_read.close();
+
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        }
+    }
+*/
+    protected static void adminMenu() {
+        out.println(Resources.language.getADMIN_MENU());
+    int choice;
+        try {
+            choice = Integer.parseInt(reader.readLine());
+            switch (choice) {
+                case 1:
+                    AdminHandler.printUserMenu();
+                    break;
+                case 2:
+                    mainMenu();
+                    break;
+                case 3:
+                    help("./serverLog.txt");
+                    break;
+                case 4:
+                    exit();
+                    break;
+                default:
+                    out.println(Resources.language.getWRONG_CHOICE());
+                    adminMenu();
+                    break;
+            }
+        }
+        catch (NumberFormatException ex) {
+            out.println(Resources.language.getWRONG_CHOICE());
+            adminMenu();
+        } catch (IOException e) {
+            out.println(Resources.language.getIO_ERROR());
+            adminMenu();
+        }
+    }
 
     protected static void mainMenu() {
         if (UserData.currentUser != null) {
@@ -111,7 +173,12 @@ public class MainMenu {
                 case 6:
                     if (UserData.currentUser != null) {
                         UserData.logOut(Resources.traditions, Resources.countries, Resources.holidays);
-                        UserHandler.logIn();
+                        boolean admin_flag = UserData.prevUser != null ? UserData.prevUser.isAdmin() : false;
+                        if (admin_flag) {
+                            UserData.currentUser = UserData.prevUser;
+                            adminMenu();
+                        }
+                        else UserHandler.logIn();
                         break;
                     }
                 case 7:

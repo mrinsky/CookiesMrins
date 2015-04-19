@@ -2,65 +2,64 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="client" />
-      <artifact name="func" />
-      <artifact name="langlib" />
       <artifact name="model" />
-      <artifact name="server" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ca514cc-8149-4e68-8490-93d46a5d304c" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Михаил\Documents\GitHub\Cookies\out\test\NewProject\modules\junit_tests\AddTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Михаил\Documents\GitHub\Cookies\out\test\NewProject\modules\junit_tests\TestMain.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Михаил\Documents\GitHub\Cookies\out\test\NewProject\modules\junit_tests\TestVally.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$1.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$2.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$AddListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$AddListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$CountryListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$CountryListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$HolidayListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow$HolidayListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AddWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$1.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/src/user_interface/AdminHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/users/Mihail/countrySave.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/users/Mihail/holidaySave.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/users/Mihail/traditionSave.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/AddHandler.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/AddHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$2.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$3.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/AdditionalSearchWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$1.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$2.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$3.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$4.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$5.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$6.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$7.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$8.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$9.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$descriptListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$descriptListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$removeAllListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$removeAllListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$removeListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$removeListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$styleListener.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow$styleListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MainWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/RegistrationForm.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/RegistrationForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/Resources.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/Resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/functions/functional/Change.class" afterPath="$PROJECT_DIR$/out/production/functions/functional/Change.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/ChangeHandler.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/ChangeHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/MainMenu$1.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/MainMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/client/gui_interface/MyClient.class" afterPath="$PROJECT_DIR$/out/production/client/gui_interface/MyClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/PrintHandler.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/PrintHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/functions/functional/Remove.class" afterPath="$PROJECT_DIR$/out/production/functions/functional/Remove.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/RemoveHandler.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/RemoveHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/model/model/User.class" afterPath="$PROJECT_DIR$/out/production/model/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/functions/functional/UserData.class" afterPath="$PROJECT_DIR$/out/production/functions/functional/UserData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/UserHandler.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/UserHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/functions/functional/XmlFileWorking.class" afterPath="$PROJECT_DIR$/out/production/functions/functional/XmlFileWorking.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NewProject/langlib.jar" afterPath="$PROJECT_DIR$/out/production/NewProject/langlib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/model/model.jar" afterPath="$PROJECT_DIR$/out/artifacts/model/model.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/server/user_interface/myServer.class" afterPath="$PROJECT_DIR$/out/production/server/user_interface/myServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java" afterPath="$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java" afterPath="$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/src/gui_interface/MainWindow.java" afterPath="$PROJECT_DIR$/gui/src/gui_interface/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/src/gui_interface/RegistrationForm.java" afterPath="$PROJECT_DIR$/gui/src/gui_interface/RegistrationForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/src/gui_interface/Resources.java" afterPath="$PROJECT_DIR$/gui/src/gui_interface/Resources.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/src/functional/Change.java" afterPath="$PROJECT_DIR$/functions/src/functional/Change.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/ChangeHandler.java" afterPath="$PROJECT_DIR$/console/src/user_interface/ChangeHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/src/lang/Language.java" afterPath="$PROJECT_DIR$/language/src/lang/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/MainMenu.java" afterPath="$PROJECT_DIR$/console/src/user_interface/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/PrintHandler.java" afterPath="$PROJECT_DIR$/console/src/user_interface/PrintHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/src/functional/Remove.java" afterPath="$PROJECT_DIR$/functions/src/functional/Remove.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java" afterPath="$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/src/functional/Search.java" afterPath="$PROJECT_DIR$/functions/src/functional/Search.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/src/functional/XmlFileWorking.java" afterPath="$PROJECT_DIR$/functions/src/functional/XmlFileWorking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Vally/countrySave.xml" afterPath="$PROJECT_DIR$/resources/users/Vally/countrySave.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Vally/holidaySave.xml" afterPath="$PROJECT_DIR$/resources/users/Vally/holidaySave.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/src/lang/Strings_EN.java" afterPath="$PROJECT_DIR$/language/src/lang/Strings_EN.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/src/lang/Strings_RU.java" afterPath="$PROJECT_DIR$/language/src/lang/Strings_RU.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/src/model/User.java" afterPath="$PROJECT_DIR$/model/src/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/src/functional/UserData.java" afterPath="$PROJECT_DIR$/functions/src/functional/UserData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/UserHandler.java" afterPath="$PROJECT_DIR$/console/src/user_interface/UserHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Mih/countrySave.xml" afterPath="$PROJECT_DIR$/resources/users/Mih/countrySave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/admin/countrySave.xml" afterPath="$PROJECT_DIR$/resources/users/admin/countrySave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/xml/countrySave_ru.xml" afterPath="$PROJECT_DIR$/resources/xml/countrySave_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Mih/holidaySave.xml" afterPath="$PROJECT_DIR$/resources/users/Mih/holidaySave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/admin/holidaySave.xml" afterPath="$PROJECT_DIR$/resources/users/admin/holidaySave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/xml/holidaySave_ru.xml" afterPath="$PROJECT_DIR$/resources/xml/holidaySave_ru.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_62.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_62.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_63.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_63.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console/src/user_interface/myServer.java" afterPath="$PROJECT_DIR$/console/src/user_interface/myServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Vally/traditionSave.xml" afterPath="$PROJECT_DIR$/resources/users/Vally/traditionSave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_64.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_64.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_65.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jdom_2_0_65.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/model.xml" afterPath="$PROJECT_DIR$/.idea/libraries/model.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serverLog.txt" afterPath="$PROJECT_DIR$/serverLog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/Mih/traditionSave.xml" afterPath="$PROJECT_DIR$/resources/users/Mih/traditionSave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/users/admin/traditionSave.xml" afterPath="$PROJECT_DIR$/resources/users/admin/traditionSave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/xml/traditionSave_ru.xml" afterPath="$PROJECT_DIR$/resources/xml/traditionSave_ru.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/userList/user.xml" afterPath="$PROJECT_DIR$/resources/userList/user.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/xalan5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/xalan5.xml" />
     </list>
     <ignored path="NewProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,95 +83,248 @@
     <favorites_list name="NewProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="XmlFileWorking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/functional/XmlFileWorking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4754" max-vertical-offset="5253">
-              <caret line="518" column="52" selection-start-line="518" selection-start-column="52" selection-end-line="518" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#loadTradition#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="e#4028#4039#0" expanded="true" />
-                <element signature="method#saveHolidays#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="e#6876#6885#0" expanded="true" />
-                <element signature="e#8692#8701#0" expanded="true" />
-                <element signature="e#10256#10262#0" expanded="true" />
-                <element signature="method#validationXSD#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#xmlToString#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#stringToXML#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#sendTraditionToServer_ADD#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getTraditionFromClient_ADD#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#sendRequestToServer_Search#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getRequestFromClient_Search#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#sendRequestToServer_regularSearch#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getRequestFromClient_regularSearch#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getRequestFromClient_maskSearchHolidayName#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getRequestFromClient_maskSearchCountryName#0;class#XmlFileWorking#0" expanded="false" />
-                <element signature="method#getRequestFromClient_maskSearchDescriptionName#0;class#XmlFileWorking#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Remove.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/functional/Remove.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1037">
-              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/console/src/user_interface/myServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2108">
-              <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
-              <folding>
-                <element signature="method#myServer#0;class#myServer#0" expanded="false" />
-                <element signature="method#serverInit#0;class#myServer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6186" max-vertical-offset="7616">
-              <caret line="430" column="59" selection-start-line="430" selection-start-column="59" selection-end-line="430" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#MainWindow#0" expanded="false" />
-                <element signature="method#initComponents#0;class#MainWindow#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serverLog.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/serverLog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7287234" vertical-offset="3330" max-vertical-offset="3706">
-              <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4348" max-vertical-offset="5117">
-              <caret line="296" column="27" selection-start-line="292" selection-start-column="26" selection-end-line="296" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.65845907">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/console/src/user_interface/MainMenu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="5040">
+                  <caret line="180" column="49" selection-start-line="180" selection-start-column="49" selection-end-line="180" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="holidaySave.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/users/admin/holidaySave.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Strings_RU.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_RU.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.321429" vertical-offset="1373" max-vertical-offset="6444">
+                  <caret line="83" column="162" selection-start-line="83" selection-start-column="162" selection-end-line="83" selection-end-column="162" />
+                  <folding>
+                    <element signature="e#12192#12193#0" expanded="true" />
+                    <element signature="e#12224#12225#0" expanded="true" />
+                    <element signature="e#12277#12278#0" expanded="true" />
+                    <element signature="e#12312#12313#0" expanded="true" />
+                    <element signature="e#15226#15227#0" expanded="true" />
+                    <element signature="e#15259#15260#0" expanded="true" />
+                    <element signature="e#15296#15297#0" expanded="true" />
+                    <element signature="e#15330#15331#0" expanded="true" />
+                    <element signature="e#15367#15368#0" expanded="true" />
+                    <element signature="e#15401#15402#0" expanded="true" />
+                    <element signature="e#15436#15437#0" expanded="true" />
+                    <element signature="e#15468#15469#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserData.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/functions/src/functional/UserData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+                  <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Search.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/functions/src/functional/Search.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="3348">
+                  <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/functions/src/functional/Registration.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Language.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/language/src/lang/Language.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2763" max-vertical-offset="3276">
+                  <caret line="171" column="4" selection-start-line="171" selection-start-column="4" selection-end-line="174" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AdminHandler.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/console/src/user_interface/AdminHandler.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2322">
+                  <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddWindow.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5418">
+                  <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AdditionalSearchWindow.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.2706767" vertical-offset="5508" max-vertical-offset="7416">
+                  <caret line="337" column="34" selection-start-line="337" selection-start-column="34" selection-end-line="337" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#10148#10154#0" expanded="true" />
+                    <element signature="e#10746#14588#0" expanded="true" />
+                    <element signature="e#14587#14588#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="RemoveHandler.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1242">
+                  <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/resources/userList/user.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.64285713" vertical-offset="0" max-vertical-offset="144">
+                  <caret line="1" column="419" selection-start-line="1" selection-start-column="419" selection-end-line="1" selection-end-column="419" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="language.iml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/language/language.iml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Resources.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/console/src/user_interface/Resources.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+                  <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$PROJECT_DIR$/resources/model.jar!/model/User.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-10.36" vertical-offset="623" max-vertical-offset="1674">
+                  <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#3006#3007#0" expanded="true" />
+                    <element signature="e#3054#3055#0" expanded="true" />
+                    <element signature="e#3089#3090#0" expanded="true" />
+                    <element signature="e#3121#3122#0" expanded="true" />
+                    <element signature="e#3229#3230#0" expanded="true" />
+                    <element signature="e#3262#3263#0" expanded="true" />
+                    <element signature="e#3367#3368#0" expanded="true" />
+                    <element signature="e#3416#3417#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Change.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/functions/src/functional/Change.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2308" max-vertical-offset="2898">
+                  <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Strings_EN.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_EN.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.94609165" vertical-offset="5445" max-vertical-offset="6030">
+                  <caret line="522" column="15" selection-start-line="515" selection-start-column="4" selection-end-line="526" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#14799#14800#0" expanded="true" />
+                    <element signature="e#14832#14833#0" expanded="true" />
+                    <element signature="e#14869#14870#0" expanded="true" />
+                    <element signature="e#14903#14904#0" expanded="true" />
+                    <element signature="e#14940#14941#0" expanded="true" />
+                    <element signature="e#14974#14975#0" expanded="true" />
+                    <element signature="e#15009#15010#0" expanded="true" />
+                    <element signature="e#15041#15042#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/model/src/model/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="2016">
+                  <caret line="136" column="5" selection-start-line="121" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Remove.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/functions/src/functional/Remove.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1048" max-vertical-offset="1530">
+                  <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Push.Settings">
     <option name="myUpdateMethod" value="REBASE" />
@@ -180,6 +332,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="czcziocz@gmail.com\" />
         <option value="MIhail Mrinsky &lt;mister.ms@mail.ru&gt;" />
         <option value="iocz &lt;czcziocz@gmail.com&gt;" />
         <option value="czcziocz@gmail.com" />
@@ -187,24 +340,20 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gui/src/gui_interface/HelpWindow.java" />
-        <option value="$PROJECT_DIR$/gui/src/gui_interface/SearchWindow.java" />
-        <option value="$PROJECT_DIR$/gui/src/Main.java" />
-        <option value="$PROJECT_DIR$/gui/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/main/Resources.java" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/Main.java" />
         <option value="$PROJECT_DIR$/console/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/console/src/Main.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/AddHandler.java" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/ChangeHandler.java" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/PrintHandler.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/SearchHandler.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/TraditionHandler.java" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/UserHandler.java" />
         <option value="$PROJECT_DIR$/functions/src/functional/DataSaveLoad.java" />
         <option value="$PROJECT_DIR$/resources/users/Vally/countrySave.xml" />
         <option value="$PROJECT_DIR$/resources/users/Vally/holidaySave.xml" />
@@ -215,40 +364,49 @@
         <option value="$PROJECT_DIR$/console/src/user_interface/Client.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/myClient.java" />
         <option value="$PROJECT_DIR$/gui/src/myClient.java" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/MainMenu.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/Resources.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/XmlFileWorking.java" />
         <option value="$PROJECT_DIR$/gui/src/gui_interface/LoginWindow.java" />
-        <option value="$PROJECT_DIR$/functions/src/functional/Remove.java" />
         <option value="$PROJECT_DIR$/resources/user/user.xml" />
-        <option value="$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java" />
-        <option value="$PROJECT_DIR$/functions/src/functional/UserData.java" />
-        <option value="$PROJECT_DIR$/language/src/lang/Strings_EN.java" />
-        <option value="$PROJECT_DIR$/language/src/lang/Strings_RU.java" />
         <option value="$PROJECT_DIR$/resources/user/countrySave_ru.xml" />
         <option value="$PROJECT_DIR$/functions/src/functional/Registration.java" />
         <option value="$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/AddTest.java" />
         <option value="$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/TestVally.java" />
         <option value="$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/TestMain.java" />
         <option value="$PROJECT_DIR$/gui/src/gui_interface/RegistrationForm.java" />
-        <option value="$PROJECT_DIR$/model/src/model/User.java" />
         <option value="$PROJECT_DIR$/gui/src/gui_interface/Resources.java" />
         <option value="$PROJECT_DIR$/resources/temp/clientTemp.xml" />
         <option value="$PROJECT_DIR$/resources/temp/Vallytemp.xml" />
-        <option value="$PROJECT_DIR$/functions/src/functional/Search.java" />
-        <option value="$PROJECT_DIR$/resources/userList/user.xml" />
-        <option value="$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java" />
         <option value="$PROJECT_DIR$/functions/src/functional/XmlFileWorking.java" />
         <option value="$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java" />
         <option value="$PROJECT_DIR$/gui/src/gui_interface/MainWindow.java" />
         <option value="$PROJECT_DIR$/console/src/user_interface/myServer.java" />
+        <option value="$PROJECT_DIR$/resources/users/admin/countrySave.xml" />
+        <option value="$PROJECT_DIR$/resources/users/admin/holidaySave.xml" />
+        <option value="$PROJECT_DIR$/resources/users/admin/traditionSave.xml" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/PrintHandler.java" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/ChangeHandler.java" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/UserHandler.java" />
+        <option value="$PROJECT_DIR$/functions/src/functional/UserData.java" />
+        <option value="$PROJECT_DIR$/model/src/model/User.java" />
+        <option value="$PROJECT_DIR$/functions/src/functional/Remove.java" />
+        <option value="$PROJECT_DIR$/resources/userList/user.xml" />
+        <option value="$PROJECT_DIR$/functions/src/functional/Change.java" />
+        <option value="$PROJECT_DIR$/language/src/lang/Language.java" />
+        <option value="$PROJECT_DIR$/language/src/lang/Strings_EN.java" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/MainMenu.java" />
+        <option value="$PROJECT_DIR$/language/src/lang/Strings_RU.java" />
+        <option value="$PROJECT_DIR$/console/src/user_interface/AdminHandler.java" />
+        <option value="$PROJECT_DIR$/functions/src/functional/Search.java" />
+        <option value="$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -293,6 +451,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,7 +466,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +476,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,11 +490,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,37 +508,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mih" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CookiesMrins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CookiesMrins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CookiesMrins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CookiesMrins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,61 +602,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -453,7 +616,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -471,7 +634,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -493,7 +656,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -507,7 +670,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -525,7 +688,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Cookies" />
+              <option name="myItemId" value="CookiesMrins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -544,7 +707,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,11 +716,11 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -937,28 +1099,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771823" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3398693" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3389313" sideWeight="0.50039715" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3398693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33843797" sideWeight="0.49960285" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18683812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2104845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39816234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -985,7 +1147,8 @@
     <MESSAGE value="Change send message from client" />
     <MESSAGE value="Mrins and Iocz merge" />
     <MESSAGE value="Исправил регистрацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил регистрацию" />
+    <MESSAGE value="Админка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Админка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,9 +1159,15 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/console/src/user_interface/MainMenu.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/console/src/user_interface/MainMenu.java</url>
-          <line>17</line>
+          <line>19</line>
           <properties class="user_interface.MainMenu" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -1014,7 +1183,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1023,836 +1192,562 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/Resources.java">
+    <entry file="file://$PROJECT_DIR$/functions/src/functional/DataSaveLoad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="544">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/resources/func.jar!/functional/XmlFileWorking.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4801" max-vertical-offset="5134">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/PrintHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4726" max-vertical-offset="6120">
-          <caret line="289" column="78" selection-start-line="289" selection-start-column="78" selection-end-line="289" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1242">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/functions/functional/XmlFileWorking.class">
+    <entry file="file://$PROJECT_DIR$/resources/users/admin/traditionSave.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30813953" vertical-offset="5113" max-vertical-offset="6681">
-          <caret line="336" column="28" selection-start-line="336" selection-start-column="28" selection-end-line="336" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/user/holidaySave_ru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6062176" vertical-offset="0" max-vertical-offset="386">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/user/traditionSave_ru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/xml/countrySave_en.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/xml/countrySave_ru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/user/countrySave_ru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/AddTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1241">
-          <caret line="53" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/TestVally.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="935">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/src/lang/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2236" max-vertical-offset="3009">
-          <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/junit_tests/modules/junit_tests/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/user/user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/functional/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="1564">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/RegistrationForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2192" max-vertical-offset="2652">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/xml/countrySave.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/xml/holidaySave.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/xml/countrySave.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/users/admin/countrySave.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09651475" vertical-offset="0" max-vertical-offset="373">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/xml/traditionSave.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55988026" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="method#copyFile#0;class#User#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/functional/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32934132" vertical-offset="332" max-vertical-offset="867">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/users/Mihail/countrySave.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/users/Mihail/holidaySave.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/users/Mihail/traditionSave.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/functional/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1717">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/AddHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3655">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/MyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1190">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="3706">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#7681#7903#0" expanded="false" />
-            <element signature="e#7902#7903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/LoginWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="5083">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/console/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_EN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="5491">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
           <folding>
-            <element signature="e#6917#6918#0" expanded="false" />
-            <element signature="e#6949#6950#0" expanded="false" />
-            <element signature="e#7053#7054#0" expanded="false" />
-            <element signature="e#7087#7088#0" expanded="false" />
-            <element signature="e#7125#7126#0" expanded="false" />
-            <element signature="e#7159#7160#0" expanded="false" />
-            <element signature="e#7201#7202#0" expanded="false" />
-            <element signature="e#7239#7240#0" expanded="false" />
-            <element signature="e#7282#7283#0" expanded="false" />
-            <element signature="e#7320#7321#0" expanded="false" />
-            <element signature="e#7353#7354#0" expanded="false" />
-            <element signature="e#7382#7383#0" expanded="false" />
-            <element signature="e#7413#7414#0" expanded="false" />
-            <element signature="e#7440#7441#0" expanded="false" />
-            <element signature="e#7471#7472#0" expanded="false" />
-            <element signature="e#7498#7499#0" expanded="false" />
-            <element signature="e#7534#7535#0" expanded="false" />
-            <element signature="e#7566#7567#0" expanded="false" />
-            <element signature="e#7600#7601#0" expanded="false" />
-            <element signature="e#7630#7631#0" expanded="false" />
-            <element signature="e#7661#7662#0" expanded="false" />
-            <element signature="e#7688#7689#0" expanded="false" />
-            <element signature="e#7721#7722#0" expanded="false" />
-            <element signature="e#7750#7751#0" expanded="false" />
-            <element signature="e#7790#7791#0" expanded="false" />
-            <element signature="e#7826#7827#0" expanded="false" />
-            <element signature="e#7859#7860#0" expanded="false" />
-            <element signature="e#7888#7889#0" expanded="false" />
-            <element signature="e#7918#7919#0" expanded="false" />
-            <element signature="e#7944#7945#0" expanded="false" />
-            <element signature="e#7983#7984#0" expanded="false" />
-            <element signature="e#8018#8019#0" expanded="false" />
-            <element signature="e#8057#8058#0" expanded="false" />
-            <element signature="e#8092#8093#0" expanded="false" />
-            <element signature="e#8133#8134#0" expanded="false" />
-            <element signature="e#8170#8171#0" expanded="false" />
-            <element signature="e#8206#8207#0" expanded="false" />
-            <element signature="e#8238#8239#0" expanded="false" />
-            <element signature="e#8275#8276#0" expanded="false" />
-            <element signature="e#8308#8309#0" expanded="false" />
-            <element signature="e#8350#8351#0" expanded="false" />
-            <element signature="e#8388#8389#0" expanded="false" />
-            <element signature="e#8427#8428#0" expanded="false" />
-            <element signature="e#8462#8463#0" expanded="false" />
-            <element signature="e#8503#8504#0" expanded="false" />
-            <element signature="e#8540#8541#0" expanded="false" />
-            <element signature="e#8575#8576#0" expanded="false" />
-            <element signature="e#8606#8607#0" expanded="false" />
-            <element signature="e#8638#8639#0" expanded="false" />
-            <element signature="e#8666#8667#0" expanded="false" />
-            <element signature="e#8700#8701#0" expanded="false" />
-            <element signature="e#8730#8731#0" expanded="false" />
-            <element signature="e#8768#8769#0" expanded="false" />
-            <element signature="e#8802#8803#0" expanded="false" />
-            <element signature="e#8843#8844#0" expanded="false" />
-            <element signature="e#8880#8881#0" expanded="false" />
-            <element signature="e#8922#8923#0" expanded="false" />
-            <element signature="e#8960#8961#0" expanded="false" />
-            <element signature="e#9014#9015#0" expanded="false" />
-            <element signature="e#9050#9051#0" expanded="false" />
-            <element signature="e#9094#9095#0" expanded="false" />
-            <element signature="e#9134#9135#0" expanded="false" />
-            <element signature="e#9177#9178#0" expanded="false" />
-            <element signature="e#9216#9217#0" expanded="false" />
-            <element signature="e#9254#9255#0" expanded="false" />
-            <element signature="e#9288#9289#0" expanded="false" />
-            <element signature="e#9332#9333#0" expanded="false" />
-            <element signature="e#9372#9373#0" expanded="false" />
-            <element signature="e#9416#9417#0" expanded="false" />
-            <element signature="e#9456#9457#0" expanded="false" />
-            <element signature="e#9499#9500#0" expanded="false" />
-            <element signature="e#9538#9539#0" expanded="false" />
-            <element signature="e#9573#9574#0" expanded="false" />
-            <element signature="e#9604#9605#0" expanded="false" />
-            <element signature="e#9643#9644#0" expanded="false" />
-            <element signature="e#9678#9679#0" expanded="false" />
-            <element signature="e#9724#9725#0" expanded="false" />
-            <element signature="e#9752#9753#0" expanded="false" />
-            <element signature="e#9803#9804#0" expanded="false" />
-            <element signature="e#9836#9837#0" expanded="false" />
-            <element signature="e#9891#9892#0" expanded="false" />
-            <element signature="e#9928#9929#0" expanded="false" />
-            <element signature="e#9977#9978#0" expanded="false" />
-            <element signature="e#10008#10009#0" expanded="false" />
-            <element signature="e#10059#10060#0" expanded="false" />
-            <element signature="e#10092#10093#0" expanded="false" />
-            <element signature="e#10135#10136#0" expanded="false" />
-            <element signature="e#10174#10175#0" expanded="false" />
-            <element signature="e#10213#10214#0" expanded="false" />
-            <element signature="e#10248#10249#0" expanded="false" />
-            <element signature="e#10287#10288#0" expanded="false" />
-            <element signature="e#10322#10323#0" expanded="false" />
-            <element signature="e#10363#10364#0" expanded="false" />
-            <element signature="e#10400#10401#0" expanded="false" />
-            <element signature="e#10432#10433#0" expanded="false" />
-            <element signature="e#10460#10461#0" expanded="false" />
-            <element signature="e#10496#10497#0" expanded="false" />
-            <element signature="e#10528#10529#0" expanded="false" />
-            <element signature="e#10565#10566#0" expanded="false" />
-            <element signature="e#10598#10599#0" expanded="false" />
-            <element signature="e#10639#10640#0" expanded="false" />
-            <element signature="e#10676#10677#0" expanded="false" />
-            <element signature="e#10718#10719#0" expanded="false" />
-            <element signature="e#10756#10757#0" expanded="false" />
-            <element signature="e#10798#10799#0" expanded="false" />
-            <element signature="e#10836#10837#0" expanded="false" />
-            <element signature="e#10985#10986#0" expanded="false" />
-            <element signature="e#11020#11021#0" expanded="false" />
-            <element signature="e#11056#11057#0" expanded="false" />
-            <element signature="e#11088#11089#0" expanded="false" />
-            <element signature="e#11127#11128#0" expanded="false" />
-            <element signature="e#11162#11163#0" expanded="false" />
-            <element signature="e#11197#11198#0" expanded="false" />
-            <element signature="e#11228#11229#0" expanded="false" />
-            <element signature="e#11263#11264#0" expanded="false" />
-            <element signature="e#11294#11295#0" expanded="false" />
-            <element signature="e#11336#11337#0" expanded="false" />
-            <element signature="e#11374#11375#0" expanded="false" />
-            <element signature="e#11410#11411#0" expanded="false" />
-            <element signature="e#11442#11443#0" expanded="false" />
-            <element signature="e#11478#11479#0" expanded="false" />
-            <element signature="e#11510#11511#0" expanded="false" />
-            <element signature="e#11548#11549#0" expanded="false" />
-            <element signature="e#11582#11583#0" expanded="false" />
-            <element signature="e#11617#11618#0" expanded="false" />
-            <element signature="e#11648#11649#0" expanded="false" />
-            <element signature="e#11688#11689#0" expanded="false" />
-            <element signature="e#11724#11725#0" expanded="false" />
-            <element signature="e#11761#11762#0" expanded="false" />
-            <element signature="e#11794#11795#0" expanded="false" />
-            <element signature="e#11831#11832#0" expanded="false" />
-            <element signature="e#11864#11865#0" expanded="false" />
-            <element signature="e#11901#11902#0" expanded="false" />
-            <element signature="e#11934#11935#0" expanded="false" />
-            <element signature="e#11974#11975#0" expanded="false" />
-            <element signature="e#12010#12011#0" expanded="false" />
-            <element signature="e#12047#12048#0" expanded="false" />
-            <element signature="e#12080#12081#0" expanded="false" />
-            <element signature="e#12118#12119#0" expanded="false" />
-            <element signature="e#12152#12153#0" expanded="false" />
-            <element signature="e#12190#12191#0" expanded="false" />
-            <element signature="e#12224#12225#0" expanded="false" />
-            <element signature="e#12254#12255#0" expanded="false" />
-            <element signature="e#12280#12281#0" expanded="false" />
-            <element signature="e#12312#12313#0" expanded="false" />
-            <element signature="e#12340#12341#0" expanded="false" />
-            <element signature="e#12381#12382#0" expanded="false" />
-            <element signature="e#12418#12419#0" expanded="false" />
-            <element signature="e#12459#12460#0" expanded="false" />
-            <element signature="e#12496#12497#0" expanded="false" />
-            <element signature="e#12525#12526#0" expanded="false" />
-            <element signature="e#12558#12559#0" expanded="false" />
-            <element signature="e#12597#12598#0" expanded="false" />
-            <element signature="e#12634#12635#0" expanded="false" />
-            <element signature="e#12674#12675#0" expanded="false" />
-            <element signature="e#12712#12713#0" expanded="false" />
-            <element signature="e#12761#12762#0" expanded="false" />
-            <element signature="e#12807#12808#0" expanded="false" />
-            <element signature="e#12843#12844#0" expanded="false" />
-            <element signature="e#12876#12877#0" expanded="false" />
-            <element signature="e#12915#12916#0" expanded="false" />
-            <element signature="e#12951#12952#0" expanded="false" />
-            <element signature="e#12993#12994#0" expanded="false" />
-            <element signature="e#13033#13034#0" expanded="false" />
-            <element signature="e#13068#13069#0" expanded="false" />
-            <element signature="e#13100#13101#0" expanded="false" />
-            <element signature="e#13147#13148#0" expanded="false" />
-            <element signature="e#13191#13192#0" expanded="false" />
-            <element signature="e#13227#13228#0" expanded="false" />
-            <element signature="e#13260#13261#0" expanded="false" />
-            <element signature="e#13301#13302#0" expanded="false" />
-            <element signature="e#13340#13341#0" expanded="false" />
-            <element signature="e#13379#13380#0" expanded="false" />
-            <element signature="e#13416#13417#0" expanded="false" />
-            <element signature="e#13461#13462#0" expanded="false" />
-            <element signature="e#13504#13505#0" expanded="false" />
-            <element signature="e#13542#13543#0" expanded="false" />
-            <element signature="e#13575#13576#0" expanded="false" />
-            <element signature="e#13614#13615#0" expanded="false" />
-            <element signature="e#13649#13650#0" expanded="false" />
-            <element signature="e#13680#13681#0" expanded="false" />
-            <element signature="e#13707#13708#0" expanded="false" />
-            <element signature="e#13748#13749#0" expanded="false" />
-            <element signature="e#13786#13787#0" expanded="false" />
-            <element signature="e#13934#13935#0" expanded="false" />
-            <element signature="e#13969#13970#0" expanded="false" />
-            <element signature="e#14014#14015#0" expanded="false" />
-            <element signature="e#14041#14042#0" expanded="false" />
-            <element signature="e#14103#14104#0" expanded="false" />
-            <element signature="e#14130#14131#0" expanded="false" />
-            <element signature="e#14170#14171#0" expanded="false" />
-            <element signature="e#14207#14208#0" expanded="false" />
-            <element signature="e#14255#14256#0" expanded="false" />
-            <element signature="e#14301#14302#0" expanded="false" />
-            <element signature="e#14345#14346#0" expanded="false" />
-            <element signature="e#14387#14388#0" expanded="false" />
-            <element signature="e#14421#14422#0" expanded="false" />
-            <element signature="e#14453#14454#0" expanded="false" />
+            <element signature="e#128#129#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/language/src/lang/LangMain.java">
+    <entry file="file://$PROJECT_DIR$/model/src/model/RSA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_RU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1368" max-vertical-offset="5729">
-          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1008">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
-            <element signature="e#7022#7023#0" expanded="false" />
-            <element signature="e#7066#7067#0" expanded="false" />
-            <element signature="e#7121#7122#0" expanded="false" />
-            <element signature="e#7158#7159#0" expanded="false" />
-            <element signature="e#7222#7223#0" expanded="false" />
-            <element signature="e#7268#7269#0" expanded="false" />
-            <element signature="e#7328#7329#0" expanded="false" />
-            <element signature="e#7355#7356#0" expanded="false" />
-            <element signature="e#7405#7406#0" expanded="false" />
-            <element signature="e#7432#7433#0" expanded="false" />
-            <element signature="e#7463#7464#0" expanded="false" />
-            <element signature="e#7490#7491#0" expanded="false" />
-            <element signature="e#7583#7584#0" expanded="false" />
-            <element signature="e#7618#7619#0" expanded="false" />
-            <element signature="e#7660#7661#0" expanded="false" />
-            <element signature="e#7698#7699#0" expanded="false" />
-            <element signature="e#7754#7755#0" expanded="false" />
-            <element signature="e#7792#7793#0" expanded="false" />
-            <element signature="e#7824#7825#0" expanded="false" />
-            <element signature="e#7852#7853#0" expanded="false" />
-            <element signature="e#7887#7888#0" expanded="false" />
-            <element signature="e#7918#7919#0" expanded="false" />
-            <element signature="e#7955#7956#0" expanded="false" />
-            <element signature="e#7988#7989#0" expanded="false" />
-            <element signature="e#8029#8030#0" expanded="false" />
-            <element signature="e#8066#8067#0" expanded="false" />
-            <element signature="e#8103#8104#0" expanded="false" />
-            <element signature="e#8136#8137#0" expanded="false" />
-            <element signature="e#8171#8172#0" expanded="false" />
-            <element signature="e#8202#8203#0" expanded="false" />
-            <element signature="e#8238#8239#0" expanded="false" />
-            <element signature="e#8270#8271#0" expanded="false" />
-            <element signature="e#8308#8309#0" expanded="false" />
-            <element signature="e#8342#8343#0" expanded="false" />
-            <element signature="e#8380#8381#0" expanded="false" />
-            <element signature="e#8414#8415#0" expanded="false" />
-            <element signature="e#8447#8448#0" expanded="false" />
-            <element signature="e#8476#8477#0" expanded="false" />
-            <element signature="e#8507#8508#0" expanded="false" />
-            <element signature="e#8534#8535#0" expanded="false" />
-            <element signature="e#8565#8566#0" expanded="false" />
-            <element signature="e#8592#8593#0" expanded="false" />
-            <element signature="e#8642#8643#0" expanded="false" />
-            <element signature="e#8674#8675#0" expanded="false" />
-            <element signature="e#8722#8723#0" expanded="false" />
-            <element signature="e#8752#8753#0" expanded="false" />
-            <element signature="e#8797#8798#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-            <element signature="e#8857#8858#0" expanded="false" />
-            <element signature="e#8886#8887#0" expanded="false" />
-            <element signature="e#8926#8927#0" expanded="false" />
-            <element signature="e#8962#8963#0" expanded="false" />
-            <element signature="e#8995#8996#0" expanded="false" />
-            <element signature="e#9024#9025#0" expanded="false" />
-            <element signature="e#9054#9055#0" expanded="false" />
-            <element signature="e#9080#9081#0" expanded="false" />
-            <element signature="e#9119#9120#0" expanded="false" />
-            <element signature="e#9154#9155#0" expanded="false" />
-            <element signature="e#9193#9194#0" expanded="false" />
-            <element signature="e#9228#9229#0" expanded="false" />
-            <element signature="e#9269#9270#0" expanded="false" />
-            <element signature="e#9306#9307#0" expanded="false" />
-            <element signature="e#9342#9343#0" expanded="false" />
-            <element signature="e#9374#9375#0" expanded="false" />
-            <element signature="e#9411#9412#0" expanded="false" />
-            <element signature="e#9444#9445#0" expanded="false" />
-            <element signature="e#9486#9487#0" expanded="false" />
-            <element signature="e#9524#9525#0" expanded="false" />
-            <element signature="e#9563#9564#0" expanded="false" />
-            <element signature="e#9598#9599#0" expanded="false" />
-            <element signature="e#9632#9633#0" expanded="false" />
-            <element signature="e#9662#9663#0" expanded="false" />
-            <element signature="e#9703#9704#0" expanded="false" />
-            <element signature="e#9740#9741#0" expanded="false" />
-            <element signature="e#9781#9782#0" expanded="false" />
-            <element signature="e#9818#9819#0" expanded="false" />
-            <element signature="e#9856#9857#0" expanded="false" />
-            <element signature="e#9890#9891#0" expanded="false" />
-            <element signature="e#9931#9932#0" expanded="false" />
-            <element signature="e#9968#9969#0" expanded="false" />
-            <element signature="e#10003#10004#0" expanded="false" />
-            <element signature="e#10034#10035#0" expanded="false" />
-            <element signature="e#10066#10067#0" expanded="false" />
-            <element signature="e#10094#10095#0" expanded="false" />
-            <element signature="e#10136#10137#0" expanded="false" />
-            <element signature="e#10174#10175#0" expanded="false" />
-            <element signature="e#10214#10215#0" expanded="false" />
-            <element signature="e#10250#10251#0" expanded="false" />
-            <element signature="e#10294#10295#0" expanded="false" />
-            <element signature="e#10334#10335#0" expanded="false" />
-            <element signature="e#10377#10378#0" expanded="false" />
-            <element signature="e#10416#10417#0" expanded="false" />
-            <element signature="e#10454#10455#0" expanded="false" />
-            <element signature="e#10488#10489#0" expanded="false" />
-            <element signature="e#10532#10533#0" expanded="false" />
-            <element signature="e#10572#10573#0" expanded="false" />
-            <element signature="e#10616#10617#0" expanded="false" />
-            <element signature="e#10656#10657#0" expanded="false" />
-            <element signature="e#10699#10700#0" expanded="false" />
-            <element signature="e#10738#10739#0" expanded="false" />
-            <element signature="e#10773#10774#0" expanded="false" />
-            <element signature="e#10804#10805#0" expanded="false" />
-            <element signature="e#10843#10844#0" expanded="false" />
-            <element signature="e#10878#10879#0" expanded="false" />
-            <element signature="e#10921#10922#0" expanded="false" />
-            <element signature="e#10960#10961#0" expanded="false" />
-            <element signature="e#10999#11000#0" expanded="false" />
-            <element signature="e#11034#11035#0" expanded="false" />
-            <element signature="e#11073#11074#0" expanded="false" />
-            <element signature="e#11108#11109#0" expanded="false" />
-            <element signature="e#11140#11141#0" expanded="false" />
-            <element signature="e#11168#11169#0" expanded="false" />
-            <element signature="e#11204#11205#0" expanded="false" />
-            <element signature="e#11236#11237#0" expanded="false" />
-            <element signature="e#11273#11274#0" expanded="false" />
-            <element signature="e#11306#11307#0" expanded="false" />
-            <element signature="e#11411#11412#0" expanded="false" />
-            <element signature="e#11449#11450#0" expanded="false" />
-            <element signature="e#11491#11492#0" expanded="false" />
-            <element signature="e#11529#11530#0" expanded="false" />
-            <element signature="e#11570#11571#0" expanded="false" />
-            <element signature="e#11607#11608#0" expanded="false" />
-            <element signature="e#11744#11745#0" expanded="false" />
-            <element signature="e#11779#11780#0" expanded="false" />
-            <element signature="e#11829#11830#0" expanded="false" />
-            <element signature="e#11861#11862#0" expanded="false" />
-            <element signature="e#11914#11915#0" expanded="false" />
-            <element signature="e#11949#11950#0" expanded="false" />
-            <element signature="e#11998#11999#0" expanded="false" />
-            <element signature="e#12029#12030#0" expanded="false" />
-            <element signature="e#12078#12079#0" expanded="false" />
-            <element signature="e#12109#12110#0" expanded="false" />
-            <element signature="e#12165#12166#0" expanded="false" />
-            <element signature="e#12203#12204#0" expanded="false" />
-            <element signature="e#12253#12254#0" expanded="false" />
-            <element signature="e#12285#12286#0" expanded="false" />
-            <element signature="e#12335#12336#0" expanded="false" />
-            <element signature="e#12367#12368#0" expanded="false" />
-            <element signature="e#12419#12420#0" expanded="false" />
-            <element signature="e#12453#12454#0" expanded="false" />
-            <element signature="e#12502#12503#0" expanded="false" />
-            <element signature="e#12533#12534#0" expanded="false" />
-            <element signature="e#12587#12588#0" expanded="false" />
-            <element signature="e#12623#12624#0" expanded="false" />
-            <element signature="e#12674#12675#0" expanded="false" />
-            <element signature="e#12707#12708#0" expanded="false" />
-            <element signature="e#12758#12759#0" expanded="false" />
-            <element signature="e#12791#12792#0" expanded="false" />
-            <element signature="e#12842#12843#0" expanded="false" />
-            <element signature="e#12875#12876#0" expanded="false" />
-            <element signature="e#12929#12930#0" expanded="false" />
-            <element signature="e#12965#12966#0" expanded="false" />
-            <element signature="e#13016#13017#0" expanded="false" />
-            <element signature="e#13049#13050#0" expanded="false" />
-            <element signature="e#13101#13102#0" expanded="false" />
-            <element signature="e#13135#13136#0" expanded="false" />
-            <element signature="e#13187#13188#0" expanded="false" />
-            <element signature="e#13221#13222#0" expanded="false" />
-            <element signature="e#13265#13266#0" expanded="false" />
-            <element signature="e#13291#13292#0" expanded="false" />
-            <element signature="e#13337#13338#0" expanded="false" />
-            <element signature="e#13365#13366#0" expanded="false" />
-            <element signature="e#13420#13421#0" expanded="false" />
-            <element signature="e#13457#13458#0" expanded="false" />
-            <element signature="e#13512#13513#0" expanded="false" />
-            <element signature="e#13549#13550#0" expanded="false" />
-            <element signature="e#13639#13640#0" expanded="false" />
-            <element signature="e#13676#13677#0" expanded="false" />
-            <element signature="e#13716#13717#0" expanded="false" />
-            <element signature="e#13754#13755#0" expanded="false" />
-            <element signature="e#13802#13803#0" expanded="false" />
-            <element signature="e#13848#13849#0" expanded="false" />
-            <element signature="e#13884#13885#0" expanded="false" />
-            <element signature="e#13917#13918#0" expanded="false" />
-            <element signature="e#13956#13957#0" expanded="false" />
-            <element signature="e#13992#13993#0" expanded="false" />
-            <element signature="e#14034#14035#0" expanded="false" />
-            <element signature="e#14074#14075#0" expanded="false" />
-            <element signature="e#14109#14110#0" expanded="false" />
-            <element signature="e#14141#14142#0" expanded="false" />
-            <element signature="e#14188#14189#0" expanded="false" />
-            <element signature="e#14232#14233#0" expanded="false" />
-            <element signature="e#14268#14269#0" expanded="false" />
-            <element signature="e#14301#14302#0" expanded="false" />
-            <element signature="e#14342#14343#0" expanded="false" />
-            <element signature="e#14381#14382#0" expanded="false" />
-            <element signature="e#14420#14421#0" expanded="false" />
-            <element signature="e#14457#14458#0" expanded="false" />
-            <element signature="e#14502#14503#0" expanded="false" />
-            <element signature="e#14545#14546#0" expanded="false" />
-            <element signature="e#14582#14583#0" expanded="false" />
-            <element signature="e#14615#14616#0" expanded="false" />
-            <element signature="e#14654#14655#0" expanded="false" />
-            <element signature="e#14689#14690#0" expanded="false" />
-            <element signature="e#14720#14721#0" expanded="false" />
-            <element signature="e#14747#14748#0" expanded="false" />
-            <element signature="e#14788#14789#0" expanded="false" />
-            <element signature="e#14826#14827#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1150#1151#0" expanded="false" />
+            <element signature="e#1228#1229#0" expanded="false" />
+            <element signature="e#1323#1324#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
+            <element signature="e#1433#1434#0" expanded="false" />
+            <element signature="e#1488#1489#0" expanded="false" />
+            <element signature="e#1548#1549#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/io/FileWriter.java">
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/PrintHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1700">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2952" max-vertical-offset="6766">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="391">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/temp/Vallytemp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5868">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/users/Mih/countrySave.xml">
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/ChangeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="363">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2627" max-vertical-offset="3240">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="36" selection-end-line="174" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/userList/user.xml">
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/temp/clientTemp.xml">
+    <entry file="jar://$PROJECT_DIR$/resources/model.jar!/model/RSA.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/temp/Mihailtemp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/functional/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33233532" vertical-offset="569" max-vertical-offset="2907">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="43" />
+        <state vertical-scroll-proportion="-4.36" vertical-offset="539" max-vertical-offset="1008">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6377246" vertical-offset="3034" max-vertical-offset="4726">
-          <caret line="346" column="0" selection-start-line="346" selection-start-column="0" selection-end-line="346" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="8244">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/TextBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1692">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <element signature="method#initCalendar#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initLogo#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initDateBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initLeftDateBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initRightDateBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initBigDateBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initHolidayBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initCountryBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initMaskSearchBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initRegularQueryBox#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initOkButton#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="method#initDate#0;class#AdditionalSearchWindow#0" expanded="false" />
-            <element signature="e#10746#14279#0" expanded="true" />
-            <element signature="e#14278#14279#0" expanded="true" />
+            <element signature="e#4351#4352#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/DefaultSAXHandlerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="666">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#3130#3131#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3277#3278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/BuilderErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1206">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/XMLReaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3319" max-vertical-offset="3672">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding>
+            <element signature="e#4078#4079#0" expanded="false" />
+            <element signature="e#4099#4100#0" expanded="false" />
+            <element signature="e#7577#7578#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/Namespace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2151" max-vertical-offset="5940">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/CloneBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1260">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="4266">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="e#4941#4942#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/Verifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6021" max-vertical-offset="22302">
+          <caret line="393" column="0" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
+          <folding>
+            <element signature="e#18735#18736#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/DefaultJDOMFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="4320">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/SAXHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8865" max-vertical-offset="19314">
+          <caret line="597" column="0" selection-start-line="597" selection-start-column="0" selection-end-line="597" selection-end-column="0" />
+          <folding>
+            <element signature="e#5162#5173#0" expanded="false" />
+            <element signature="e#5525#5543#0" expanded="false" />
+            <element signature="e#35472#35473#0" expanded="false" />
+            <element signature="e#35508#35509#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/org/xml/sax/InputSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2547" max-vertical-offset="5418">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="e#5458#5459#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/sax/SAXBuilderEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4239" max-vertical-offset="4824">
+          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/input/SAXBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="20403" max-vertical-offset="21348">
+          <caret line="1265" column="0" selection-start-line="1265" selection-start-column="0" selection-end-line="1265" selection-end-column="0" />
+          <folding>
+            <element signature="e#7052#7069#0" expanded="false" />
+            <element signature="e#7200#7216#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="15138">
+          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28469#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5204#5205#0" expanded="false" />
+            <element signature="e#5243#5244#0" expanded="false" />
+            <element signature="e#6162#6163#0" expanded="false" />
+            <element signature="e#6188#6189#0" expanded="false" />
+            <element signature="e#6231#6232#0" expanded="false" />
+            <element signature="e#6259#6260#0" expanded="false" />
+            <element signature="e#6308#6309#0" expanded="false" />
+            <element signature="e#6344#6345#0" expanded="false" />
+            <element signature="e#7147#7148#0" expanded="false" />
+            <element signature="e#7211#7212#0" expanded="false" />
+            <element signature="e#12363#12372#0" expanded="false" />
+            <element signature="e#12549#12550#0" expanded="false" />
+            <element signature="e#12581#12582#0" expanded="false" />
+            <element signature="e#14233#14242#0" expanded="false" />
+            <element signature="e#16905#16906#0" expanded="false" />
+            <element signature="e#16926#16927#0" expanded="false" />
+            <element signature="e#18454#18455#0" expanded="false" />
+            <element signature="e#18489#18490#0" expanded="false" />
+            <element signature="e#18544#18545#0" expanded="false" />
+            <element signature="e#18579#18580#0" expanded="false" />
+            <element signature="e#21286#21287#0" expanded="false" />
+            <element signature="e#21312#21313#0" expanded="false" />
+            <element signature="e#21471#21472#0" expanded="false" />
+            <element signature="e#21501#21502#0" expanded="false" />
+            <element signature="e#22702#22703#0" expanded="false" />
+            <element signature="e#22744#22745#0" expanded="false" />
+            <element signature="e#23471#23472#0" expanded="false" />
+            <element signature="e#23522#23523#0" expanded="false" />
+            <element signature="e#23683#23684#0" expanded="false" />
+            <element signature="e#23701#23702#0" expanded="false" />
+            <element signature="e#27127#27128#0" expanded="false" />
+            <element signature="e#27164#27165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/filter/AbstractFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="1404">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#4401#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3084#3085#0" expanded="false" />
+            <element signature="e#3121#3122#0" expanded="false" />
+            <element signature="e#4148#4149#0" expanded="false" />
+            <element signature="e#4188#4189#0" expanded="false" />
+            <element signature="e#4248#4249#0" expanded="false" />
+            <element signature="e#4292#4293#0" expanded="false" />
+            <element signature="e#4353#4354#0" expanded="false" />
+            <element signature="e#4397#4398#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/filter/ElementFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="2286">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5473#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3214#3215#0" expanded="false" />
+            <element signature="e#3239#3240#0" expanded="false" />
+            <element signature="e#3414#3415#0" expanded="false" />
+            <element signature="e#3447#3448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/ContentList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6831" max-vertical-offset="25020">
+          <caret line="451" column="0" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
+          <folding>
+            <element signature="e#13283#13284#0" expanded="false" />
+            <element signature="e#26766#26767#0" expanded="false" />
+            <element signature="e#26795#26796#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jdom-2.0.6/jdom-2.0.6-sources.jar!/org/jdom2/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25119" max-vertical-offset="35334">
+          <caret line="1522" column="0" selection-start-line="1522" selection-start-column="0" selection-end-line="1522" selection-end-column="0" />
+          <folding>
+            <element signature="e#50510#50511#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/functional/XmlFileWorking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4754" max-vertical-offset="5253">
-          <caret line="518" column="52" selection-start-line="518" selection-start-column="52" selection-end-line="518" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="9324">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loadTradition#0;class#XmlFileWorking#0" expanded="false" />
             <element signature="e#4028#4039#0" expanded="true" />
-            <element signature="method#saveHolidays#0;class#XmlFileWorking#0" expanded="false" />
             <element signature="e#6876#6885#0" expanded="true" />
             <element signature="e#8692#8701#0" expanded="true" />
-            <element signature="e#10256#10262#0" expanded="true" />
-            <element signature="method#validationXSD#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#xmlToString#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#stringToXML#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#sendTraditionToServer_ADD#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getTraditionFromClient_ADD#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#sendRequestToServer_Search#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getRequestFromClient_Search#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#sendRequestToServer_regularSearch#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getRequestFromClient_regularSearch#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getRequestFromClient_maskSearchHolidayName#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getRequestFromClient_maskSearchCountryName#0;class#XmlFileWorking#0" expanded="false" />
-            <element signature="method#getRequestFromClient_maskSearchDescriptionName#0;class#XmlFileWorking#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java">
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/UserHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4348" max-vertical-offset="5117">
-          <caret line="296" column="27" selection-start-line="292" selection-start-column="26" selection-end-line="296" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="2304">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/src/user_interface/myServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2108">
-          <caret line="150" column="58" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
-          <folding>
-            <element signature="method#myServer#0;class#myServer#0" expanded="false" />
-            <element signature="method#serverInit#0;class#myServer#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/functional/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1037">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6186" max-vertical-offset="7616">
-          <caret line="430" column="59" selection-start-line="430" selection-start-column="59" selection-end-line="430" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1048" max-vertical-offset="1530">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#MainWindow#0" expanded="false" />
-            <element signature="method#initComponents#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverLog.txt">
+    <entry file="file://$PROJECT_DIR$/resources/users/admin/holidaySave.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7287234" vertical-offset="3330" max-vertical-offset="3706">
-          <caret line="212" column="10" selection-start-line="212" selection-start-column="10" selection-end-line="212" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/userList/user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.64285713" vertical-offset="0" max-vertical-offset="144">
+          <caret line="1" column="419" selection-start-line="1" selection-start-column="419" selection-end-line="1" selection-end-column="419" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/resources/model.jar!/model/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.36" vertical-offset="623" max-vertical-offset="1674">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3006#3007#0" expanded="true" />
+            <element signature="e#3054#3055#0" expanded="true" />
+            <element signature="e#3089#3090#0" expanded="true" />
+            <element signature="e#3121#3122#0" expanded="true" />
+            <element signature="e#3229#3230#0" expanded="true" />
+            <element signature="e#3262#3263#0" expanded="true" />
+            <element signature="e#3367#3368#0" expanded="true" />
+            <element signature="e#3416#3417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/functional/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/language.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/RemoveHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1242">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="2016">
+          <caret line="136" column="5" selection-start-line="121" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/functional/Change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2308" max-vertical-offset="2898">
+          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/src/lang/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2763" max-vertical-offset="3276">
+          <caret line="171" column="4" selection-start-line="171" selection-start-column="4" selection-end-line="174" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_EN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94609165" vertical-offset="5445" max-vertical-offset="6030">
+          <caret line="522" column="15" selection-start-line="515" selection-start-column="4" selection-end-line="526" selection-end-column="5" />
+          <folding>
+            <element signature="e#14799#14800#0" expanded="true" />
+            <element signature="e#14832#14833#0" expanded="true" />
+            <element signature="e#14869#14870#0" expanded="true" />
+            <element signature="e#14903#14904#0" expanded="true" />
+            <element signature="e#14940#14941#0" expanded="true" />
+            <element signature="e#14974#14975#0" expanded="true" />
+            <element signature="e#15009#15010#0" expanded="true" />
+            <element signature="e#15041#15042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/src/lang/Strings_RU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.321429" vertical-offset="1373" max-vertical-offset="6444">
+          <caret line="83" column="162" selection-start-line="83" selection-start-column="162" selection-end-line="83" selection-end-column="162" />
+          <folding>
+            <element signature="e#12192#12193#0" expanded="true" />
+            <element signature="e#12224#12225#0" expanded="true" />
+            <element signature="e#12277#12278#0" expanded="true" />
+            <element signature="e#12312#12313#0" expanded="true" />
+            <element signature="e#15226#15227#0" expanded="true" />
+            <element signature="e#15259#15260#0" expanded="true" />
+            <element signature="e#15296#15297#0" expanded="true" />
+            <element signature="e#15330#15331#0" expanded="true" />
+            <element signature="e#15367#15368#0" expanded="true" />
+            <element signature="e#15401#15402#0" expanded="true" />
+            <element signature="e#15436#15437#0" expanded="true" />
+            <element signature="e#15468#15469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="5040">
+          <caret line="180" column="49" selection-start-line="180" selection-start-column="49" selection-end-line="180" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/src/user_interface/AdminHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2322">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/functional/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AddWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/functional/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="3348">
+          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/src/gui_interface/AdditionalSearchWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2706767" vertical-offset="5508" max-vertical-offset="7416">
+          <caret line="337" column="34" selection-start-line="337" selection-start-column="34" selection-end-line="337" selection-end-column="34" />
+          <folding>
+            <element signature="e#10148#10154#0" expanded="true" />
+            <element signature="e#10746#14588#0" expanded="true" />
+            <element signature="e#14587#14588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1866,7 +1761,7 @@
               <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>func</last-edited>
+          <last-edited>model</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1920,6 +1815,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
