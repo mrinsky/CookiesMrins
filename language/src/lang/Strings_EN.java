@@ -85,7 +85,7 @@ public class Strings_EN implements Language {
     private final String CLASS_NOT_FOUND_ERROR = "Error of load class";
     private final String NOT_UNIQUE = "Object already exists";
     private final String PRINT_SHORT_MENU = "1 - look its traditions\n2 - back";
-    private final String SHOW_USER_MENU = "What to show?\n1 - holidays today\n2 - holidays by date\n3 - holidays by type\n4 - holidays by country\n5 - show all holidays\n6 - show all countries\n7 - show own holidays\n8 - back to main menu";
+    private final String SHOW_USER_MENU = "What to show?\n1 - holidays today\n2 - holidays by date\n3 - holidays by type\n4 - holidays by country\n5 - show all holidays\n6 - show all countries\n7 - back to main menu";
     private final String GUEST_TRADITION_MENU = "1 - read the description\n2 - back";
     private final String DATE = "Date";
     private final String CREATE_TITLE = "Create event";
@@ -100,7 +100,10 @@ public class Strings_EN implements Language {
     private final String SEARCH_BY_DATE_INTERVAL = "by date interval";
     private final String CHOOSE_SEARCH_PARAM = "Choose search params";
     private final String AND_LABEL = "And";
-
+    private final String ADMIN_MENU = "1 - Users control\n2 - Main menu\n3 - Server log\n4 - Exit";
+    private final String CHANGE_USER = "1 - Change login\n2 - Change password";
+    private final String CHOOSE_USER = "Choose user:";
+    private final String USER_MENU = "1 - Delete\n2 - Change\n3 - Add\n4 - Show users\n5 - Back";
 
     public String getALL_EVENT() {
         return ALL_EVENT;
@@ -510,6 +513,17 @@ public class Strings_EN implements Language {
         return AND_LABEL;
     }
 
-
+    public String getADMIN_MENU() {
+        return ADMIN_MENU;
+    }
+    public String getCHANGE_USER() {
+        return CHANGE_USER;
+    }
+    public String getCHOOSE_USER() {
+        return CHOOSE_USER;
+    }
+    public String getUSER_MENU() {
+        return USER_MENU;
+    }
 
 }

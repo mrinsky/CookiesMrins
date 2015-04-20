@@ -4,6 +4,8 @@
       <root url="jar://$PROJECT_DIR$/resources/model.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/model/src" />
+    </SOURCES>
   </library>
 </component>

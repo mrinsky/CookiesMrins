@@ -211,3 +211,162 @@ Session started: Fri Apr 17 15:49:08 BRT 2015
  Client Mihail connected        Fri Apr 17 15:50:09 BRT 2015
  Client Mih connected        Fri Apr 17 15:50:27 BRT 2015
  Client Mihail connected        Fri Apr 17 15:50:37 BRT 2015
+Session started: Sat Apr 18 00:38:37 SAMT 2015
+
+Session started: Sat Apr 18 00:40:54 SAMT 2015
+
+Session started: Sat Apr 18 17:05:07 SAMT 2015
+
+Session started: Sat Apr 18 17:05:14 SAMT 2015
+
+Session started: Sat Apr 18 17:06:03 SAMT 2015
+
+Session started: Sat Apr 18 17:27:46 SAMT 2015
+
+Session started: Sat Apr 18 17:29:35 SAMT 2015
+
+Session started: Sat Apr 18 17:29:57 SAMT 2015
+
+Session started: Sat Apr 18 17:35:01 SAMT 2015
+
+Session started: Sat Apr 18 18:03:54 SAMT 2015
+
+Session started: Sat Apr 18 18:11:29 SAMT 2015
+
+Session started: Sat Apr 18 18:13:56 SAMT 2015
+
+Session started: Sat Apr 18 18:31:24 SAMT 2015
+
+Session started: Sat Apr 18 18:33:10 SAMT 2015
+
+Session started: Sat Apr 18 18:35:46 SAMT 2015
+
+Session started: Sat Apr 18 18:46:25 SAMT 2015
+
+Session started: Sat Apr 18 18:49:40 SAMT 2015
+
+Session started: Sat Apr 18 18:49:52 SAMT 2015
+
+Session started: Sat Apr 18 21:06:22 SAMT 2015
+
+Session started: Sat Apr 18 21:13:28 SAMT 2015
+
+Session started: Sat Apr 18 21:14:51 SAMT 2015
+
+Session started: Sat Apr 18 22:21:24 SAMT 2015
+
+Session started: Sat Apr 18 22:22:33 SAMT 2015
+
+Session started: Sat Apr 18 22:47:18 SAMT 2015
+
+Session started: Sat Apr 18 22:48:26 SAMT 2015
+
+Session started: Sat Apr 18 22:50:59 SAMT 2015
+
+Session started: Sat Apr 18 22:52:05 SAMT 2015
+
+Session started: Sat Apr 18 22:53:27 SAMT 2015
+
+Session started: Sat Apr 18 22:54:25 SAMT 2015
+
+Session started: Sat Apr 18 22:55:44 SAMT 2015
+
+Session started: Sat Apr 18 22:59:18 SAMT 2015
+
+Session started: Sun Apr 19 01:20:53 SAMT 2015
+
+Session started: Sun Apr 19 01:23:51 SAMT 2015
+
+Session started: Sun Apr 19 01:28:08 SAMT 2015
+
+Session started: Sun Apr 19 01:36:36 SAMT 2015
+
+Session started: Sun Apr 19 01:39:37 SAMT 2015
+
+Session started: Sun Apr 19 01:39:44 SAMT 2015
+
+Session started: Sun Apr 19 01:47:43 SAMT 2015
+
+Session started: Sun Apr 19 01:48:30 SAMT 2015
+
+Session started: Sun Apr 19 01:49:10 SAMT 2015
+
+Session started: Sun Apr 19 01:49:49 SAMT 2015
+
+Session started: Sun Apr 19 01:58:01 SAMT 2015
+
+Session started: Sun Apr 19 01:59:19 SAMT 2015
+
+Session started: Sun Apr 19 12:57:27 SAMT 2015
+
+Session started: Sun Apr 19 13:41:50 SAMT 2015
+
+Session started: Sun Apr 19 13:45:47 SAMT 2015
+
+Session started: Sun Apr 19 13:47:42 SAMT 2015
+
+Session started: Sun Apr 19 13:47:51 SAMT 2015
+
+Session started: Sun Apr 19 13:52:45 SAMT 2015
+
+Session started: Sun Apr 19 14:01:18 SAMT 2015
+
+Session started: Sun Apr 19 14:06:02 SAMT 2015
+
+Session started: Sun Apr 19 14:23:02 SAMT 2015
+
+Session started: Sun Apr 19 14:27:04 SAMT 2015
+
+Session started: Sun Apr 19 14:28:14 SAMT 2015
+
+Session started: Sun Apr 19 14:29:59 SAMT 2015
+
+Session started: Sun Apr 19 14:30:54 SAMT 2015
+
+Session started: Sun Apr 19 14:33:23 SAMT 2015
+
+Session started: Sun Apr 19 14:34:24 SAMT 2015
+
+Session started: Sun Apr 19 14:34:57 SAMT 2015
+
+Session started: Sun Apr 19 14:36:06 SAMT 2015
+
+Session started: Sun Apr 19 14:36:43 SAMT 2015
+
+Session started: Sun Apr 19 14:40:09 SAMT 2015
+
+Session started: Sun Apr 19 14:40:47 SAMT 2015
+
+Session started: Sun Apr 19 14:42:22 SAMT 2015
+
+Session started: Sun Apr 19 14:43:04 SAMT 2015
+
+Session started: Sun Apr 19 14:47:04 SAMT 2015
+
+Session started: Sun Apr 19 14:51:55 SAMT 2015
+
+Session started: Sun Apr 19 14:57:53 SAMT 2015
+
+Session started: Sun Apr 19 15:06:01 SAMT 2015
+
+Session started: Sun Apr 19 16:17:46 SAMT 2015
+
+Session started: Sun Apr 19 17:10:23 SAMT 2015
+
+Session started: Sun Apr 19 17:11:48 SAMT 2015
+
+Session started: Sun Apr 19 17:36:59 SAMT 2015
+
+Session started: Sun Apr 19 17:37:36 SAMT 2015
+
+Session started: Sun Apr 19 17:41:19 SAMT 2015
+
+Session started: Sun Apr 19 17:41:48 SAMT 2015
+
+Session started: Sun Apr 19 18:15:47 SAMT 2015
+
+Session started: Sun Apr 19 18:16:33 SAMT 2015
+
+Session started: Sun Apr 19 18:41:00 SAMT 2015
+
+ Client admin connected        Sun Apr 19 18:41:16 SAMT 2015

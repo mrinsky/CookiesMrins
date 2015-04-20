@@ -2,6 +2,7 @@ package functional;
 
 import model.*;
 
+import javax.swing.*;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -161,5 +162,25 @@ public class Search {
         return -1;
     }
 
+    public static void searchDate(Date dateValue, LinkedList<Holiday> holiday, LinkedList<Country> country,
+                            ArrayList<Tradition> tradition) {
+        try {
+            if (Search.getDateHolidays(dateValue, holiday).size() != 0) {
+                LinkedList<Holiday> holidays = Search.getDateHolidays(dateValue, holiday);
 
+                ArrayList<Tradition> traditions = Search.getTraditions(holidays.get(0), tradition);
+                for (Holiday item : holidays) {
+                    for (Tradition value : Search.getTraditions(item, tradition)) {
+                        traditions.add(value);
+                    }
+                }
+                traditions.remove(0);
+                tradition = traditions;
+            } else {
+                //JOptionPane.showMessageDialog(null, lang.getNOT_FOUND());
+            }
+        } catch (IndexOutOfBoundsException exc) {
+            JOptionPane.showMessageDialog(null, "!!!");
+        }
+    }
 }

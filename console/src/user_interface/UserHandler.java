@@ -25,7 +25,7 @@ public class UserHandler {
     protected static PrintWriter out = new PrintWriter(System.out, true);
     protected static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-    private static void registration() {
+    static void registration() {
         String login,
                 pass1,
                 pass2;
@@ -70,9 +70,13 @@ public class UserHandler {
                 out.println(Resources.language.getPASS());
                 pass = reader.readLine();
                 loadUserData(login, pass);
+                if ("admin".equals(login) && "0".equals(pass)) {
+                    MainMenu.adminMenu();
+                }
             } catch (IOException exc) {
                 out.println(Resources.language.getIO_ERROR());
             }
+            if (UserData.currentUser.isAdmin()) MainMenu.adminMenu();
             MainMenu.mainMenu();
         }
     }
